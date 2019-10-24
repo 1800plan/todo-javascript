@@ -3,7 +3,16 @@ Basic to-do that uses Javascript, HTML and CSS
 
 The Magnificently Basic ToDo
 
-This todo let's you create a short to-do notes to a list. You can delete the note by clicking the 'X' symbol at the end of the note.
+This todo let's you create a short to-do notes to a list. You can delete the note by clicking the 'X' symbol at the end of the note. This to-do list was inspired by W3School's todo list.
+
+TODO's:
+- more refined todo
+- checklists
+- dropdown menu
+- html 5 drag and drop
+- more javascript
+
+--- The rest of the text is README-template ---
 
 Getting Started
 
