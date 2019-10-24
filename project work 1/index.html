@@ -1,0 +1,74 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title>Magnificently Basic ToDo</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css"> <!-- CSS styling -->
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+
+  <!-- Add your site or application content here -->
+  <header>
+		<h1>THE MAGNIFICENTLY BASIC TODO</h1>
+  </header>
+  <main>
+		<h2>What is this?</h2>
+		<p>This site was created for the Javascript coding course. You can click the polar bear to find more helpful info.</p>
+		<p>Start typing something to the box below. Then press the 'Add' button/press Enter to add your note to the to-do list below.</p>
+		<div class="flex-container"> <!-- this flex element has three items=divs -->
+			<div><form name="todoForm" action="#"> <!-- # means the form is submitted to the same page -->
+				<span><input id="input-field" type="text" placeholder="type in your note" autofocus></span>
+				<br><br><button onclick="addNote()" class="add-button">Add</button>
+			</form>
+			</div>
+			<div><img onclick="showHideTips()" src="img/dancing_bear_tenor.gif" id="bear-img" alt="gif of dancing bear"/><div id="date"></div>
+			</div>
+			<div id="tips-div"><h3>The dancing polar bear tells you that...</h3>
+			<br><br>You can delete items from the list by clicking the 'X' symbol
+			<br><br>You are missing these: dropdown lists, checklists, HTML5 drag &amp; drop
+			</div>
+		</div>
+			<h2>Your notes</h2>
+		<div>
+			<ul id="note-list"> <!-- shows the todo list -->
+				  <li>EXAMPLE - Code something successfully<span class="close">&#10060;</span></li><!-- span class "close" adds 'X' buttons to list items -->
+				  <li>EXAMPLE - Party hard<span class="close">&#10060;</span></li>
+				  <li>EXAMPLE - repeat<span class="close">&#10060;</span></li>
+				</ul>
+				<h3>Polar bear's two simple steps for coding:</h3>
+				<p>1. Understand the concepts<br>2. Practice until you’re familiar with them</p>
+		</div>
+	</main>
+	<footer>&copy;Footer</footer>
+  <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script> <!-- Javascript file -->
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async></script>
+</body>
+
+</html>
