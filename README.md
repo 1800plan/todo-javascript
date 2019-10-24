@@ -12,6 +12,8 @@ TODO's:
 - html 5 drag and drop
 - more javascript
 
+![Screenshot_2019-10-24 Magnificently Basic ToDo](https://user-images.githubusercontent.com/50943581/67503865-0d93ed80-f691-11e9-8796-25166777abdf.png)
+
 --- The rest of the text is README-template ---
 
 Getting Started
